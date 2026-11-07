@@ -1,0 +1,1041 @@
+{
+  "schemaVersion": 1,
+  "tool": "regression-capture",
+  "app": {
+    "path": "src/App.tsx",
+    "sha256": "70bdb1bdcbafc6c5addf0390b905d091ae80cfde6639f4b9f2f1aa90eacf6584",
+    "bytes": 1259877
+  },
+  "options": {
+    "rounds": 6,
+    "seed": 20261031,
+    "fixedNow": 1700000000000,
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 2
+    },
+    "userAgent": "Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+  },
+  "initScript": {
+    "applied": true,
+    "seed": 20261031,
+    "fixedNow": 1700000000000
+  },
+  "initScreen": {
+    "title": "Meme币庄家模拟器",
+    "tabs": [
+      "新游戏",
+      "加载存档"
+    ],
+    "contentText": "💰Meme币庄家模拟器扮演金融市场的操纵者，通过资金操作影响市场标的新游戏加载存档初始资金设置5M10M50M100M仅支持固定资金档位，选择后即可开始游戏开始游戏📄 下载项目交接文档面向开发者的完整机制说明（Markdown）",
+    "hasStartButton": true,
+    "defaultCapitalTier": "5M"
+  },
+  "gameStarted": true,
+  "initialHome": {
+    "roundTime": "第1天 00:00",
+    "totalAsset": "$5.00M",
+    "assetDetail": [
+      {
+        "label": "可用",
+        "value": "$5.00M"
+      },
+      {
+        "label": "盈亏",
+        "value": "+$0.00"
+      },
+      {
+        "label": "ROI",
+        "value": "+0.0%"
+      }
+    ],
+    "eventBanner": null,
+    "fastForward": {
+      "disabled": false,
+      "label": "⏩"
+    },
+    "activeNav": "首页",
+    "homeMarketTab": "🔥 热门",
+    "homeMarketRows": [
+      {
+        "name": "BTC",
+        "price": "$64380",
+        "change": "+0.00%"
+      },
+      {
+        "name": "ETH",
+        "price": "$1747",
+        "change": "+0.00%"
+      },
+      {
+        "name": "BNB",
+        "price": "$672.2",
+        "change": "+0.00%"
+      },
+      {
+        "name": "XRP",
+        "price": "$1.17",
+        "change": "+0.00%"
+      },
+      {
+        "name": "SOL",
+        "price": "$71.46",
+        "change": "+0.00%"
+      }
+    ]
+  },
+  "navLabels": [
+    "首页",
+    "行情",
+    "交易",
+    "合约",
+    "资产"
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "roundTime": "第1天 01:00",
+      "home": {
+        "roundTime": "第1天 01:00",
+        "totalAsset": "$5.00M",
+        "assetDetail": [
+          {
+            "label": "可用",
+            "value": "$5.00M"
+          },
+          {
+            "label": "盈亏",
+            "value": "+$0.00"
+          },
+          {
+            "label": "ROI",
+            "value": "+0.0%"
+          }
+        ],
+        "eventBanner": null,
+        "fastForward": {
+          "disabled": false,
+          "label": "⏩"
+        },
+        "activeNav": "首页",
+        "homeMarketTab": "🔥 热门",
+        "homeMarketRows": [
+          {
+            "name": "BTC",
+            "price": "$64260",
+            "change": "-0.17%"
+          },
+          {
+            "name": "ETH",
+            "price": "$1750",
+            "change": "+0.16%"
+          },
+          {
+            "name": "BNB",
+            "price": "$672.9",
+            "change": "+0.10%"
+          },
+          {
+            "name": "XRP",
+            "price": "$1.168",
+            "change": "-0.20%"
+          },
+          {
+            "name": "SOL",
+            "price": "$71.55",
+            "change": "+0.12%"
+          }
+        ]
+      },
+      "fastForwardClick": "mouse",
+      "modalsClosed": [],
+      "strayOverlays": []
+    },
+    {
+      "round": 2,
+      "roundTime": "第1天 02:00",
+      "home": {
+        "roundTime": "第1天 02:00",
+        "totalAsset": "$5.00M",
+        "assetDetail": [
+          {
+            "label": "可用",
+            "value": "$5.00M"
+          },
+          {
+            "label": "盈亏",
+            "value": "+$0.00"
+          },
+          {
+            "label": "ROI",
+            "value": "+0.0%"
+          }
+        ],
+        "eventBanner": null,
+        "fastForward": {
+          "disabled": false,
+          "label": "⏩"
+        },
+        "activeNav": "首页",
+        "homeMarketTab": "🔥 热门",
+        "homeMarketRows": [
+          {
+            "name": "BTC",
+            "price": "$64370",
+            "change": "-0.01%"
+          },
+          {
+            "name": "ETH",
+            "price": "$1754",
+            "change": "+0.39%"
+          },
+          {
+            "name": "BNB",
+            "price": "$671.4",
+            "change": "-0.11%"
+          },
+          {
+            "name": "XRP",
+            "price": "$1.169",
+            "change": "-0.06%"
+          },
+          {
+            "name": "SOL",
+            "price": "$71.44",
+            "change": "-0.03%"
+          }
+        ]
+      },
+      "fastForwardClick": "mouse",
+      "modalsClosed": [],
+      "strayOverlays": []
+    },
+    {
+      "round": 3,
+      "roundTime": "第1天 03:00",
+      "home": {
+        "roundTime": "第1天 03:00",
+        "totalAsset": "$5.00M",
+        "assetDetail": [
+          {
+            "label": "可用",
+            "value": "$5.00M"
+          },
+          {
+            "label": "盈亏",
+            "value": "+$0.00"
+          },
+          {
+            "label": "ROI",
+            "value": "+0.0%"
+          }
+        ],
+        "eventBanner": null,
+        "fastForward": {
+          "disabled": false,
+          "label": "⏩"
+        },
+        "activeNav": "首页",
+        "homeMarketTab": "🔥 热门",
+        "homeMarketRows": [
+          {
+            "name": "BTC",
+            "price": "$64430",
+            "change": "+0.09%"
+          },
+          {
+            "name": "ETH",
+            "price": "$1752",
+            "change": "+0.27%"
+          },
+          {
+            "name": "BNB",
+            "price": "$670.2",
+            "change": "-0.29%"
+          },
+          {
+            "name": "XRP",
+            "price": "$1.167",
+            "change": "-0.22%"
+          },
+          {
+            "name": "SOL",
+            "price": "$71.27",
+            "change": "-0.26%"
+          }
+        ]
+      },
+      "fastForwardClick": "mouse",
+      "modalsClosed": [],
+      "strayOverlays": []
+    },
+    {
+      "round": 4,
+      "roundTime": "第1天 04:00",
+      "home": {
+        "roundTime": "第1天 04:00",
+        "totalAsset": "$5.00M",
+        "assetDetail": [
+          {
+            "label": "可用",
+            "value": "$5.00M"
+          },
+          {
+            "label": "盈亏",
+            "value": "+$0.00"
+          },
+          {
+            "label": "ROI",
+            "value": "+0.0%"
+          }
+        ],
+        "eventBanner": null,
+        "fastForward": {
+          "disabled": false,
+          "label": "⏩"
+        },
+        "activeNav": "首页",
+        "homeMarketTab": "🔥 热门",
+        "homeMarketRows": [
+          {
+            "name": "BTC",
+            "price": "$64300",
+            "change": "-0.11%"
+          },
+          {
+            "name": "ETH",
+            "price": "$1754",
+            "change": "+0.41%"
+          },
+          {
+            "name": "BNB",
+            "price": "$671.7",
+            "change": "-0.08%"
+          },
+          {
+            "name": "XRP",
+            "price": "$1.169",
+            "change": "-0.09%"
+          },
+          {
+            "name": "SOL",
+            "price": "$71.43",
+            "change": "-0.04%"
+          }
+        ]
+      },
+      "fastForwardClick": "mouse",
+      "modalsClosed": [],
+      "strayOverlays": []
+    },
+    {
+      "round": 5,
+      "roundTime": "第1天 05:00",
+      "home": {
+        "roundTime": "第1天 05:00",
+        "totalAsset": "$5.00M",
+        "assetDetail": [
+          {
+            "label": "可用",
+            "value": "$5.00M"
+          },
+          {
+            "label": "盈亏",
+            "value": "+$0.00"
+          },
+          {
+            "label": "ROI",
+            "value": "+0.0%"
+          }
+        ],
+        "eventBanner": null,
+        "fastForward": {
+          "disabled": false,
+          "label": "⏩"
+        },
+        "activeNav": "首页",
+        "homeMarketTab": "🔥 热门",
+        "homeMarketRows": [
+          {
+            "name": "BTC",
+            "price": "$64200",
+            "change": "-0.28%"
+          },
+          {
+            "name": "ETH",
+            "price": "$1751",
+            "change": "+0.21%"
+          },
+          {
+            "name": "BNB",
+            "price": "$672.9",
+            "change": "+0.11%"
+          },
+          {
+            "name": "XRP",
+            "price": "$1.171",
+            "change": "+0.05%"
+          },
+          {
+            "name": "SOL",
+            "price": "$71.54",
+            "change": "+0.11%"
+          }
+        ]
+      },
+      "fastForwardClick": "mouse",
+      "modalsClosed": [],
+      "strayOverlays": []
+    },
+    {
+      "round": 6,
+      "roundTime": "第1天 06:00",
+      "home": {
+        "roundTime": "第1天 06:00",
+        "totalAsset": "$5.00M",
+        "assetDetail": [
+          {
+            "label": "可用",
+            "value": "$5.00M"
+          },
+          {
+            "label": "盈亏",
+            "value": "+$0.00"
+          },
+          {
+            "label": "ROI",
+            "value": "+0.0%"
+          }
+        ],
+        "eventBanner": null,
+        "fastForward": {
+          "disabled": false,
+          "label": "⏩"
+        },
+        "activeNav": "首页",
+        "homeMarketTab": "🔥 热门",
+        "homeMarketRows": [
+          {
+            "name": "BTC",
+            "price": "$64060",
+            "change": "-0.50%"
+          },
+          {
+            "name": "ETH",
+            "price": "$1748",
+            "change": "+0.06%"
+          },
+          {
+            "name": "BNB",
+            "price": "$671.8",
+            "change": "-0.07%"
+          },
+          {
+            "name": "XRP",
+            "price": "$1.172",
+            "change": "+0.15%"
+          },
+          {
+            "name": "SOL",
+            "price": "$71.41",
+            "change": "-0.07%"
+          }
+        ]
+      },
+      "fastForwardClick": "mouse",
+      "modalsClosed": [],
+      "strayOverlays": []
+    }
+  ],
+  "tabs": {
+    "home": {
+      "roundTime": "第1天 06:00",
+      "totalAsset": "$5.00M",
+      "assetDetail": [
+        {
+          "label": "可用",
+          "value": "$5.00M"
+        },
+        {
+          "label": "盈亏",
+          "value": "+$0.00"
+        },
+        {
+          "label": "ROI",
+          "value": "+0.0%"
+        }
+      ],
+      "eventBanner": null,
+      "fastForward": {
+        "disabled": false,
+        "label": "⏩"
+      },
+      "activeNav": "首页",
+      "homeMarketTab": "🔥 热门",
+      "homeMarketRows": [
+        {
+          "name": "BTC",
+          "price": "$64060",
+          "change": "-0.50%"
+        },
+        {
+          "name": "ETH",
+          "price": "$1748",
+          "change": "+0.06%"
+        },
+        {
+          "name": "BNB",
+          "price": "$671.8",
+          "change": "-0.07%"
+        },
+        {
+          "name": "XRP",
+          "price": "$1.172",
+          "change": "+0.15%"
+        },
+        {
+          "name": "SOL",
+          "price": "$71.41",
+          "change": "-0.07%"
+        }
+      ]
+    },
+    "market": {
+      "roundTime": "第1天 06:00",
+      "searchPlaceholder": "搜索代币名称或代码...",
+      "sectorTabs": [
+        {
+          "text": "📊全部",
+          "active": true
+        },
+        {
+          "text": "💰DeFi",
+          "active": false
+        },
+        {
+          "text": "🌐元宇宙",
+          "active": false
+        },
+        {
+          "text": "💳支付",
+          "active": false
+        },
+        {
+          "text": "⛏️PoW",
+          "active": false
+        },
+        {
+          "text": "💾存储",
+          "active": false
+        },
+        {
+          "text": "🎨NFT",
+          "active": false
+        },
+        {
+          "text": "🐕Meme",
+          "active": false
+        },
+        {
+          "text": "🤖AI",
+          "active": false
+        },
+        {
+          "text": "🔗Layer1",
+          "active": false
+        },
+        {
+          "text": "⚡Layer2",
+          "active": false
+        },
+        {
+          "text": "🏛️RWA",
+          "active": false
+        }
+      ],
+      "listHeader": "代币最新价格24h涨跌",
+      "rows": [
+        {
+          "code": "BTC",
+          "price": "$64060",
+          "change": "-0.50%",
+          "marketCap": "",
+          "volume": ""
+        },
+        {
+          "code": "ETH",
+          "price": "$1748",
+          "change": "+0.06%",
+          "marketCap": "",
+          "volume": ""
+        },
+        {
+          "code": "BNB",
+          "price": "$671.8",
+          "change": "-0.07%",
+          "marketCap": "",
+          "volume": ""
+        },
+        {
+          "code": "XRP",
+          "price": "$1.172",
+          "change": "+0.15%",
+          "marketCap": "",
+          "volume": ""
+        },
+        {
+          "code": "SOL",
+          "price": "$71.41",
+          "change": "-0.07%",
+          "marketCap": "",
+          "volume": ""
+        },
+        {
+          "code": "TON",
+          "price": "$6.377",
+          "change": "-0.05%",
+          "marketCap": "",
+          "volume": ""
+        },
+        {
+          "code": "ADA",
+          "price": "$0.4511",
+          "change": "+0.02%",
+          "marketCap": "",
+          "volume": ""
+        },
+        {
+          "code": "AVAX",
+          "price": "$32.62",
+          "change": "-0.26%",
+          "marketCap": "",
+          "volume": ""
+        }
+      ]
+    },
+    "trade": {
+      "roundTime": "第1天 06:00",
+      "pairName": "UNIUSDT",
+      "sideTabs": [
+        {
+          "text": "买入",
+          "active": true
+        },
+        {
+          "text": "卖出",
+          "active": false
+        }
+      ],
+      "orderbookModeLabel": "📋 限价单",
+      "asks": [
+        {
+          "price": "$9.581",
+          "qty": "197.46K"
+        },
+        {
+          "price": "$9.549",
+          "qty": "200.83K"
+        },
+        {
+          "price": "$9.521",
+          "qty": "175.39K"
+        },
+        {
+          "price": "$9.493",
+          "qty": "170.37K"
+        },
+        {
+          "price": "$9.468",
+          "qty": "137.77K"
+        }
+      ],
+      "bids": [
+        {
+          "price": "$9.311",
+          "qty": "87.00K"
+        },
+        {
+          "price": "$9.261",
+          "qty": "120.91K"
+        },
+        {
+          "price": "$9.21",
+          "qty": "117.74K"
+        },
+        {
+          "price": "$9.145",
+          "qty": "130.38K"
+        },
+        {
+          "price": "$9.072",
+          "qty": "115.93K"
+        }
+      ],
+      "currentPrice": "$9.311",
+      "change24h": "+0.33%",
+      "viewTabs": [
+        {
+          "text": "持仓",
+          "active": true
+        },
+        {
+          "text": "委托",
+          "active": false
+        }
+      ],
+      "panelText": "买入卖出市价限价数量UNI按数量按金额可用100%25%50%75%100%可用 $5.00M买入 UNI"
+    },
+    "futures": {
+      "roundTime": "第1天 06:00",
+      "pairName": "UNIUSDT",
+      "viewTabs": [
+        {
+          "text": "持仓",
+          "active": true
+        },
+        {
+          "text": "委托",
+          "active": false
+        }
+      ],
+      "overlayTitle": null,
+      "overlayDesc": null,
+      "leftPanelText": "开多开空全仓10x单向市价限价仓位价值$按仓位价值按代币数量可用金额100%25%50%75%100%可用 $5.00M冻结 $0.00开多 UNI 10x",
+      "orderbookText": "合约盘口 (10x)费率-0.05%每8h结算价格金额$9.983204.69K$9.915198.11K$9.847213.74K$9.773137.45K$9.71135.47K$9.265+0.33%标记$9.269价格金额$9.26580.19K$9.197111.72K$9.144117.80K$9.07128.42K$9.014137.52K"
+    },
+    "assets": {
+      "roundTime": "第1天 06:00",
+      "headerTitle": "我的资产",
+      "totalValue": "$5.00M",
+      "detail": [
+        {
+          "label": "可用",
+          "value": "$5.00M"
+        },
+        {
+          "label": "冻结",
+          "value": "$0.00"
+        },
+        {
+          "label": "盈亏",
+          "value": "+$0.00"
+        },
+        {
+          "label": "ROI",
+          "value": "+0.0%"
+        }
+      ],
+      "tabs": [
+        {
+          "text": "持有币种",
+          "active": true
+        },
+        {
+          "text": "成交记录",
+          "active": false
+        },
+        {
+          "text": "可用资金",
+          "active": false
+        }
+      ],
+      "contentText": "现货持仓 (0)暂无持仓"
+    }
+  },
+  "interactions": {
+    "kline": {
+      "code": "UNIUSDT",
+      "price": "$9.311",
+      "ohlc": "24h最高价9.33124h最低价9.224h成交量(UNI)5.62M24h成交额(USDT)52.02M",
+      "periodButtons": [
+        {
+          "text": "1小时",
+          "active": true
+        },
+        {
+          "text": "4小时",
+          "active": false
+        },
+        {
+          "text": "日线",
+          "active": false
+        }
+      ],
+      "depthButton": "深度图",
+      "chartAreaPresent": true,
+      "candleSvgCount": 0
+    }
+  },
+  "klineClosed": true,
+  "screenshots": [
+    {
+      "name": "screenshot-00-init.png",
+      "bytes": 198986
+    },
+    {
+      "name": "screenshot-home.png",
+      "bytes": 95974
+    },
+    {
+      "name": "screenshot-market.png",
+      "bytes": 163333
+    },
+    {
+      "name": "screenshot-trade-cex.png",
+      "bytes": 126832
+    },
+    {
+      "name": "screenshot-kline.png",
+      "bytes": 71168
+    },
+    {
+      "name": "screenshot-futures.png",
+      "bytes": 134636
+    },
+    {
+      "name": "screenshot-assets.png",
+      "bytes": 40483
+    }
+  ],
+  "errors": {
+    "pageErrors": [],
+    "consoleErrors": [],
+    "consoleErrorPrefixed": [],
+    "consoleErrorReal": [],
+    "consoleErrorBenign": [],
+    "consoleWarnings": [],
+    "dialogs": [],
+    "requestFailures": []
+  },
+  "warnings": [],
+  "assertions": {
+    "ok": true,
+    "checks": [
+      {
+        "id": "init.scriptApplied",
+        "ok": true,
+        "detail": null
+      },
+      {
+        "id": "init.screenDetected",
+        "ok": true,
+        "detail": null
+      },
+      {
+        "id": "init.gameStarted",
+        "ok": true,
+        "detail": null
+      },
+      {
+        "id": "page.noPageError",
+        "ok": true,
+        "detail": []
+      },
+      {
+        "id": "console.noConsoleError",
+        "ok": true,
+        "detail": []
+      },
+      {
+        "id": "rounds.count",
+        "ok": true,
+        "detail": "期望 6，实际 6"
+      },
+      {
+        "id": "rounds.timeFormat",
+        "ok": true,
+        "detail": [
+          "第1天 01:00",
+          "第1天 02:00",
+          "第1天 03:00",
+          "第1天 04:00",
+          "第1天 05:00",
+          "第1天 06:00"
+        ]
+      },
+      {
+        "id": "rounds.timeSequence",
+        "ok": true,
+        "detail": null
+      },
+      {
+        "id": "rounds.fastForwardReenabled",
+        "ok": true,
+        "detail": null
+      },
+      {
+        "id": "home.totalAsset",
+        "ok": true,
+        "detail": null
+      },
+      {
+        "id": "home.detailLabels",
+        "ok": true,
+        "detail": null
+      },
+      {
+        "id": "home.marketRows",
+        "ok": true,
+        "detail": null
+      },
+      {
+        "id": "nav.labels",
+        "ok": true,
+        "detail": [
+          "首页",
+          "行情",
+          "交易",
+          "合约",
+          "资产"
+        ]
+      },
+      {
+        "id": "tabs.captured",
+        "ok": true,
+        "detail": [
+          "home",
+          "market",
+          "trade",
+          "futures",
+          "assets"
+        ]
+      },
+      {
+        "id": "trade.pairName",
+        "ok": true,
+        "detail": null
+      },
+      {
+        "id": "trade.orderbookRows",
+        "ok": true,
+        "detail": null
+      },
+      {
+        "id": "futures.captured",
+        "ok": true,
+        "detail": null
+      },
+      {
+        "id": "assets.captured",
+        "ok": true,
+        "detail": null
+      },
+      {
+        "id": "kline.chartArea",
+        "ok": true,
+        "detail": null
+      },
+      {
+        "id": "kline.backReturned",
+        "ok": true,
+        "detail": null
+      },
+      {
+        "id": "screenshots.count",
+        "ok": true,
+        "detail": 7
+      },
+      {
+        "id": "screenshots.files",
+        "ok": true,
+        "detail": null
+      },
+      {
+        "id": "app.shaRecorded",
+        "ok": true,
+        "detail": null
+      }
+    ],
+    "failures": []
+  },
+  "baseUrl": "http://127.0.0.1:5181/",
+  "browser": {
+    "executable": "playwright-default"
+  },
+  "startMethod": "mouse",
+  "initialModals": {
+    "closed": [
+      {
+        "name": "hot-sector",
+        "title": "×"
+      }
+    ],
+    "remaining": []
+  },
+  "finalHome": {
+    "roundTime": "第1天 06:00",
+    "totalAsset": "$5.00M",
+    "assetDetail": [
+      {
+        "label": "可用",
+        "value": "$5.00M"
+      },
+      {
+        "label": "盈亏",
+        "value": "+$0.00"
+      },
+      {
+        "label": "ROI",
+        "value": "+0.0%"
+      }
+    ],
+    "eventBanner": null,
+    "fastForward": {
+      "disabled": false,
+      "label": "⏩"
+    },
+    "activeNav": "首页",
+    "homeMarketTab": "🔥 热门",
+    "homeMarketRows": [
+      {
+        "name": "BTC",
+        "price": "$64060",
+        "change": "-0.50%"
+      },
+      {
+        "name": "ETH",
+        "price": "$1748",
+        "change": "+0.06%"
+      },
+      {
+        "name": "BNB",
+        "price": "$671.8",
+        "change": "-0.07%"
+      },
+      {
+        "name": "XRP",
+        "price": "$1.172",
+        "change": "+0.15%"
+      },
+      {
+        "name": "SOL",
+        "price": "$71.41",
+        "change": "-0.07%"
+      }
+    ]
+  },
+  "bodyMetrics": {
+    "innerWidth": 390,
+    "innerHeight": 844,
+    "devicePixelRatio": 2
+  },
+  "git": {
+    "head": "5395574ddfe6ca157f214fa591d82022fbe9c655",
+    "subject": "fix(heat): 热度与观察标签改用本回合 24h 涨跌幅，消除一回合滞后",
+    "dirty": true,
+    "dirtyFiles": [
+      "M src/App.tsx",
+      " M tests/baseline/seeded-snapshot.json",
+      " M tests/tmp/screenshot-futures.png",
+      " M tests/tmp/screenshot-home.png",
+      " M tests/tmp/screenshot-kline.png",
+      " M tests/tmp/screenshot-market.png",
+      " M tests/tmp/screenshot-trade-cex.png",
+      " M tests/tmp/seeded-snapshot.json",
+      "?? pnpm-lock.yaml"
+    ]
+  },
+  "durationMs": 21914,
+  "capturedAt": "2026-11-07T04:34:49.946Z"
+}

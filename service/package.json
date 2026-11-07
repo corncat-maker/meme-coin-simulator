@@ -1,0 +1,26 @@
+{
+  "name": "asap-quickjs-service",
+  "description": "QuickJS service controller bundle builder",
+  "dependencies": {
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.0",
+    "vitest": "^4.1.5"
+  },
+  "scripts": {
+    "build": "node scripts/build-quickjs-service.cjs",
+    "dev": "npm run build",
+    "deploy": "node -e \"console.log('QuickJS service runtime artifacts are consumed by asap-service; no standalone deploy step.')\"",
+    "lint": "tsc --project tsconfig.json --noEmit",
+    "test": "npm run lint",
+    "test:service-smoke": "node scripts/service-contract-smoke.cjs",
+    "test:service-integration": "vitest run --config vitest.integration.config.ts",
+    "test:service-integration:local": "node scripts/run-service-integration-local.cjs",
+    "ci": "npm run lint && npm run build"
+  },
+  "engines": {
+    "install-node": "22"
+  },
+  "private": true
+}

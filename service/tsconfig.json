@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "lib": ["ES2020"],
+    "baseUrl": ".",
+    "paths": {
+      "@server": ["runtime/sdk/server"],
+      "@server/response": ["runtime/sdk/response"],
+      "@server/types": ["runtime/sdk/types"]
+    },
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "types": ["node"]
+  },
+  "include": ["app/**/*.ts", "runtime/sdk/**/*.ts"],
+  "exclude": ["app/**/*.test.ts"]
+}
