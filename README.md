@@ -13,7 +13,7 @@
 ## 直接体验
 
 - **浏览器版**：下载 [`standalone/index.html`](standalone/index.html) 后用现代浏览器打开；无需安装依赖。
-- **Android 版**：到本仓库 **Releases** 下载 `庄家模拟器_1.0.apk`。
+- **Android 版**：到本仓库 [Releases](https://github.com/corncat-maker/meme-coin-simulator/releases/latest) 下载 `meme-simulator-1.0.apk`（原始文件名：庄家模拟器_1.0.apk）。
 
 Android 安装包由项目作者提供，原样发布，不在本源码仓库中重新签名或构建。当前仓库是 React/Vite Web 项目，不包含 Android 原生封装工程、签名密钥或可复现 APK 的打包流水线。APK 的内容和版本不应仅凭文件名推断为与当前 HTML 完全相同。
 
